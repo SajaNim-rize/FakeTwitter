@@ -271,11 +271,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.source.faketwitter.$(PRODUCT_NAME:rfc1034identifier)";
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
->>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
 				PRODUCT_NAME = source;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -302,11 +298,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.source.faketwitter.$(PRODUCT_NAME:rfc1034identifier)";
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
->>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
 				PRODUCT_NAME = source;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

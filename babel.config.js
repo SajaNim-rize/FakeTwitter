@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module.exports = function (api) {
   api.cache(true);
   return {
@@ -9,4 +10,8 @@ module.exports = function (api) {
       }],
     ],
   };
+=======
+module.exports = {
+  presets: ['module:@react-native/babel-preset'],
+>>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
 };

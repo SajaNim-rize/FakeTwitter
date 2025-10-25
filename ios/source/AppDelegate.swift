@@ -2,7 +2,10 @@ import UIKit
 import React
 import React_RCTAppDelegate
 import ReactAppDependencyProvider
+<<<<<<< HEAD
 import FirebaseCore
+=======
+>>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -29,8 +32,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       in: window,
       launchOptions: launchOptions
     )
+<<<<<<< HEAD
   
     FirebaseApp.configure()
+=======
+
+>>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
     return true
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { Button, View, Text, StyleSheet } from 'react-native';
 import auth from '@react-native-firebase/auth';
@@ -35,11 +36,56 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.title}>Google 로그인 테스트</Text>
       <Button title="Google 로그인" onPress={onGoogleButtonPress} />
+=======
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
+
+import { NewAppScreen } from '@react-native/new-app-screen';
+import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import {
+  SafeAreaProvider,
+  useSafeAreaInsets,
+} from 'react-native-safe-area-context';
+
+function App() {
+  const isDarkMode = useColorScheme() === 'dark';
+
+  return (
+    <SafeAreaProvider>
+      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <AppContent />
+    </SafeAreaProvider>
+  );
+}
+
+function AppContent() {
+  const safeAreaInsets = useSafeAreaInsets();
+
+  return (
+    <View style={styles.container}>
+      <NewAppScreen
+        templateFileName="App.tsx"
+        safeAreaInsets={safeAreaInsets}
+      />
+>>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
   container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   title: { fontSize: 20, marginBottom: 20 },
 });
+=======
+  container: {
+    flex: 1,
+  },
+});
+
+export default App;
+>>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4

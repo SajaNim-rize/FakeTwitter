@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "expo": {
     "name": "FakeTwitter",
     "slug": "fake-twitter",
@@ -30,8 +29,4 @@
       "favicon": "./assets/favicon.png"
     }
   }
-=======
-  "name": "source",
-  "displayName": "source"
->>>>>>> 4d02a9435da824bce90b35f4c06a38f35a1201c4
 }
